@@ -1,0 +1,1 @@
+DROP TABLE vpnapp.vpn_configurations;

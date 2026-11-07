@@ -1,0 +1,8 @@
+ALTER TABLE vpnapp.vpn_accounts
+DROP CONSTRAINT fk_vpn_accounts_current_configuration;
+
+ALTER TABLE vpnapp.vpn_accounts
+DROP COLUMN current_configuration_id;
+
+ALTER TABLE vpnapp.vpn_configurations
+DROP CONSTRAINT uq_vpn_configurations_account_id_id;
